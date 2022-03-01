@@ -1,0 +1,11 @@
+.loading-bar {
+  background-color: $blue;
+  height: 3px;
+  position: absolute;
+  z-index: 1;
+}
+
+.App {
+  width: 70%;
+  margin: 0 auto;
+}

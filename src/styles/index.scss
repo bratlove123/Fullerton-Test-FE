@@ -1,0 +1,10 @@
+@import "antd/dist/antd.css";
+
+// common style
+@import "variables";
+@import "common";
+@import "utilities";
+
+// Component styles
+@import "../components/UI/BaseInput/index";
+@import "../components/Login/index";

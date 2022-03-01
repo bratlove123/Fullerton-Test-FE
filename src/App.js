@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import LoadingBar from "react-redux-loading-bar";
+import { useAuth } from "hooks/useAuth";
 
-function App() {
+import Routes from "routes";
+
+const App = () => {
+  const [isCheckingAuth, isLoggedIn] = useAuth();
+
+  if (isCheckingAuth) {
+    return <p>Checking authentication...</p>;
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <LoadingBar className="loading-bar" />
+      <Routes isLoggedIn={isLoggedIn} />
     </div>
   );
-}
+};
 
 export default App;
