@@ -10,13 +10,13 @@ You may also see any lint errors in the console.
 
 ### `user account`
 
-Admin
-  username: admin
+Admin.\
+  username: admin.\
   password: 12345678
-  
-User
-  username: HR-test1
+.\
+User.\
+  username: HR-test1.\
   password: 12345678
-  
-  username: HR-test2
+.\
+  username: HR-test2.\
   password: 12345678
