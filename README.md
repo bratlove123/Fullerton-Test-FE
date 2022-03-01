@@ -10,11 +10,11 @@ You may also see any lint errors in the console.
 
 ### `user account`
 
-### `Admin`\
+### `Admin`
   username: admin\
   password: 12345678
-\
-### `User`\
+
+### `User`
   username: HR-test1\
   password: 12345678
 \
